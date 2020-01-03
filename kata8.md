@@ -8,3 +8,7 @@ function even_or_odd(number) {
 ```js
 const Round = n => n.toFixed(2)
 ```
+* https://www.codewars.com/kata/round-a-number-to-n-decimal-places/train/javascript
+```js
+Round = (n,p) => n.toFixed(p)
+```
