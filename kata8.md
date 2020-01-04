@@ -12,3 +12,7 @@ const Round = n => n.toFixed(2)
 ```js
 Round = (n,p) => n.toFixed(p)
 ```
+* https://www.codewars.com/kata/sum-without-highest-and-lowest-number/train/javascript
+```js
+sumArray = a => a ? a.sort((x, y) => x - y).slice(1, -1).reduce((s, e) => s + e, 0) : 0
+```
