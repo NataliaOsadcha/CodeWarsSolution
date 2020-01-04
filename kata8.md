@@ -16,3 +16,7 @@ Round = (n,p) => n.toFixed(p)
 ```js
 sumArray = a => a ? a.sort((x, y) => x - y).slice(1, -1).reduce((s, e) => s + e, 0) : 0
 ```
+* https://www.codewars.com/kata/squash-the-bugs/train/javascript
+```js
+const findLongest = str => Math.max(...str.split(' ').map(word=>word.length))
+```
