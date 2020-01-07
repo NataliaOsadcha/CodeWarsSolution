@@ -20,3 +20,14 @@ sumArray = a => a ? a.sort((x, y) => x - y).slice(1, -1).reduce((s, e) => s + e,
 ```js
 const findLongest = str => Math.max(...str.split(' ').map(word=>word.length))
 ```
+* https://www.codewars.com/kata/57cc975ed542d3148f00015b/train/javascript
+```js
+const check = (a,x) => a.includes(x);
+//OR
+function check(a,x){
+   for (i = 0; i<a.length; i++){
+   if (a[i] ===x) return true;
+};return false
+
+};
+```
